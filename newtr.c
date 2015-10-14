@@ -32,7 +32,7 @@ int main(int argc, char ** argv)
 	//Both usages of newtr should have two arguments + newtr itself
 	if(argc != 3)
 	{
-		printf("Usage: newtr [-d] SET1 [SET2]\n");
+		perror("Usage: newtr [-d] SET1 [SET2]\n");
 		return EXIT_FAILURE;
 	}
 
